@@ -1,0 +1,83 @@
+.welcome {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+}
+
+.welcome .left__bar {
+    padding-left: 4rem;
+    width:40%
+}
+
+.welcome .right__bar {
+    margin: 10%;
+    position: relative;
+}
+
+.welcome .welcome_note {
+    width: auto;
+    color: #3E3E3E;
+    font-family: Times New Roman;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.welcome .phrase {
+    width: 65%;
+    height: auto;
+    flex-shrink: 0;
+    color: #A5A5A5;
+    font-family: Times New Roman;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.welcome .dashboard {
+    width: 40%;
+    height: auto;
+    padding: 3% 0%;
+    font-size: 1vw;
+    font-weight: 800;
+    flex-shrink: 0;
+    border-radius: 4%;
+    border: 1px solid #E7E6E6;
+    border-radius: 2rem;
+    background: linear-gradient(267deg, rgba(255, 243, 139, 0.90) -43%, rgba(255, 0, 214, 0.73) -37.42%, rgba(111, 255, 229, 0.86) 91.6%, rgba(71, 110, 223, 0.93) 148.8%, rgba(5, 150, 226, 0.91) 148.82%, rgba(20, 227, 128, 0.83) 148.82%);
+    cursor: pointer;
+}
+.welcome .welcome__image {
+    width: 50%;
+    height: 50%;
+    flex-shrink: 0;
+}
+.welcome .welcome__image img{
+    width: 35rem;
+    height: 35rem;
+}
+.welcome .back__design {
+    width: 1265px;
+    height: 864px;
+    flex-shrink: 0;
+    fill: rgba(255, 255, 255, 0.70);
+    backdrop-filter: blur(50px);
+}
+
+.welcome .right__gradient{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    z-index: -1;
+    top:2rem
+}
+.welcome .right__gradient img{
+    height: 32rem;
+    width: 26rem;
+    opacity: 0.8;
+    filter: blur(50px);
+}

@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+  }
+  
+.edudrop__logo img {
+    width: 12rem;
+    height: auto;
+  }
+  
+  .butt__section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .butt__about,
+  .butt__help,
+  .butt__login {
+    font-size: large;
+    font-weight: 800;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .butt__login {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  @media screen and (max-width: 500px){
+    .edudrop__logo img {
+        width: 8rem;
+        height: auto;
+    }
+  .butt__about,
+  .butt__help,
+  .butt__login {
+    font-size: small;
+    font-weight: 800;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .butt__login {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+  }
+  }

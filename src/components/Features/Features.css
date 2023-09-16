@@ -1,0 +1,16 @@
+.features .title {
+    color: #3E3E3E;
+    font-family: Times New Roman;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 2%;
+}
+
+.features .cards__box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 0%;
+    padding: 1%;
+}
