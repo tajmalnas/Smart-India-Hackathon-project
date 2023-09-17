@@ -1,24 +1,14 @@
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
-import HeroBanner from './components/HeroBanner/HeroBanner'
-import Footers from './components/Footer/Footer'
-import Features from './components/Features/Features'
-
+import Dashboard from './pages/Dashboardpage/Dashboard'
+import Landing from './pages/LandingPage/Landing'
+import {Routes , Route} from 'react-router-dom'
 function App() {
   return (
     <>
-      <div className='app'>
-        <div className="header">
-          <Navbar/>
-        </div>
-        <div className="main">
-          <HeroBanner/>
-          <Features/>
-        </div>
-        <div className="footer">
-          <Footers/>
-        </div>
-      </div>
+      <Routes>
+        <Route index element={<Landing/>}/>
+        <Route path="/dashboard" element={<Dashboard/>}/>
+      </Routes>
     </>
   )
 }
